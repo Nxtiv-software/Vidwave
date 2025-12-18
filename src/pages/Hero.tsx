@@ -1,6 +1,6 @@
 import Button from "../components/Button";
 import { FaArrowRight } from "react-icons/fa";
-import hero from "../../public/Hero.jpg";
+
 
 function Hero() {
   return (
@@ -17,7 +17,7 @@ function Hero() {
             </div>
         </div>
         <div className="col-span-4 flex items-center justify-center">
-<img className="w-100" src={hero} alt="" />
+{/* <img className="w-100" src={hero} alt="" /> */}
         </div>
     </section>
   )
