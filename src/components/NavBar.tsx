@@ -19,7 +19,7 @@ function NavBar() {
             to="/projects" 
             className={`hover:text-amber-500 transition-colors cursor-pointer ${location.pathname === '/projects' ? 'text-amber-500' : ''}`}
           >
-            PROJECT
+            PROJECTS
           </Link>
         </li>
         {/* <li>

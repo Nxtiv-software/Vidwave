@@ -10,7 +10,7 @@ function MainLayout() {
     return (
        <>
        <NavBar/>
-       <SideBar/>
+       <SideBar><p>HOMEPAGE</p></SideBar>
        <Hero/>
        <OurStudio/>
        <BringIdeas/>

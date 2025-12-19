@@ -7,12 +7,14 @@ import Projects from "../pages/Projects"
 
 const ProjectsLayout = () => {
   return (
-    <div>
+    <>
       <NavBar/>
-       <SideBar/>
+       <SideBar >
+        <p>PROJECTS</p>
+       </SideBar>
        <Projects/>
        {/* <Footer/> */}
-    </div>
+    </>
   )
 }
 

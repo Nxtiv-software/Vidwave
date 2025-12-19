@@ -5,15 +5,14 @@ import img from "../../public/team.jpg"
 function OurTeam() {
   return (
     <section
-      className="
-    h-screen flex justify-center bg-gray-100"
+      className="min-h-screen flex justify-center bg-gray-100 py-8 sm:py-12 md:py-16 lg:py-0 pl-16 md:pl-20 lg:pl-24"
     >
-      <div className="grid grid-cols-12 items-center justify-center w-6xl pt-10">
-        <div className="col-span-8 h-full flex flex-col gap-10 justify-center">
-          <h1 className="text-7xl font-medium">
-            Meet <span className="block mt-3">Our Team</span>
+      <div className="grid grid-cols-1 lg:grid-cols-12 items-center justify-center max-w-7xl w-full px-4 sm:px-6 md:px-8 gap-8 lg:gap-0">
+        <div className="lg:col-span-8 h-full flex flex-col gap-6 sm:gap-8 lg:gap-10 justify-center">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium leading-tight">
+            Meet <span className="block mt-2 sm:mt-3">Our Team</span>
           </h1>
-          <div className="w-100 text-gray-700 leading-relaxed font-light flex flex-col gap-5">
+          <div className="w-full text-gray-700 leading-relaxed font-light flex flex-col gap-4 sm:gap-5 text-sm sm:text-base">
             <p className="">
               Meet the creative minds behind VidWave Studios. Our team of
               award-winning directors, skilled cinematographers, and innovative
@@ -35,13 +34,13 @@ function OurTeam() {
           >
             VIEW MORE
           </Button> */}
-          <div className="font-extralight text-2xl flex flex-col gap-2">
+          <div className="font-extralight text-xl sm:text-2xl flex flex-col gap-1 sm:gap-2">
           <p>Delivering <span className="font-medium">exceptional</span> results</p>
           <p><span className="font-medium">Every single</span> time.</p>
           </div>
         </div>
-        <div className="col-span-4">
-          <img src={img} alt="" />
+        <div className="lg:col-span-4 w-full">
+          <img src={img} alt="Our Team" className="w-full h-auto object-cover rounded-lg shadow-lg" />
         </div>
       </div>
     </section>

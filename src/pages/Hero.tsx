@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section className="bg-gray-100 h-screen grid grid-cols-12 mt-10">
+    <section className="bg-gray-100 h-screen grid grid-cols-12 mt-20">
         <div className="col-span-8 flex items-center justify-center">
             <div className="w-2xl flex flex-col gap-8">
                 <p>Making Waves in Visual Storytelling</p>
