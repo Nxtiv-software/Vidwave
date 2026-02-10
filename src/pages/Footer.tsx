@@ -4,7 +4,7 @@ import { FaBehance, FaTwitter, FaGithub } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="bg-black text-white px-6 py-16 sm:px-12 min-h-screen md:min-h-[70vh] flex items-center">
-      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-3 gap-y-16 md:gap-x-16 lg:gap-x-24">
+      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-16 md:gap-x-12 lg:gap-x-16">
 
         {/* 1. Logo & Subscription */}
         <div className="flex flex-col text-center md:text-left">
@@ -44,13 +44,13 @@ const Footer = () => {
             </div>
 
             <p className="text-xs opacity-60">
-              © 2023 – MIL. All Rights Reserved.
+              © 2026 – MIL. All Rights Reserved.
             </p>
           </div>
         </div>
 
         {/* 2. Navigation */}
-        <div className="flex flex-col items-center md:items-start space-y-10">
+        <div className="flex flex-col items-center md:items-start">
           <div className="flex flex-col space-y-4 text-center md:text-left">
             <a className="text-lg font-bold text-[#ff9900]">Home</a>
             <a className="text-lg hover:text-[#ff9900]">Portfolio</a>
@@ -58,26 +58,27 @@ const Footer = () => {
             <a className="text-lg hover:text-[#ff9900]">Contact</a>
             <a className="text-lg hover:text-[#ff9900]">Blog</a>
           </div>
+        </div>
 
-          <div className="flex flex-col space-y-2 pt-6 border-t border-gray-800 w-full text-center md:text-left">
-            <a className="text-sm opacity-80 hover:text-[#ff9900]">Privacy Policy</a>
-            <a className="text-sm opacity-80 hover:text-[#ff9900]">Terms & Conditions</a>
-            <a className="text-sm opacity-80 hover:text-[#ff9900]">Cookie Policy</a>
-            <a className="text-sm opacity-80 hover:text-[#ff9900]">Careers</a>
+        {/* 3. Policies & Legal */}
+        <div className="flex flex-col items-center md:items-start">
+          <div className="flex flex-col space-y-4 text-center md:text-left">
+            <a className="text-lg font-bold text-[#ff9900]">Legal</a>
+            <a className="text-lg hover:text-[#ff9900]">Privacy Policy</a>
+            <a className="text-lg hover:text-[#ff9900]">Terms & Conditions</a>
+            <a className="text-lg hover:text-[#ff9900]">Cookie Policy</a>
+            <a className="text-lg hover:text-[#ff9900]">Careers</a>
           </div>
         </div>
 
-        {/* 3. Contact */}
+        {/* 4. Contact */}
         <div className="text-center md:text-left">
-          <h4 className="font-bold text-lg mb-4">Canada</h4>
+          <h4 className="font-bold text-lg mb-4">Colombo</h4>
           <p className="text-sm opacity-80 mb-1">
-            71 South Los Carneros Road,
-          </p>
-          <p className="text-sm opacity-80 mb-6">
-            California
+           Sri Lanka
           </p>
           <p className="text-base font-medium">
-            +51 174 705 812
+            +94 76 869 4195
           </p>
         </div>
 

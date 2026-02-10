@@ -3,6 +3,15 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
+    title: "The Story of Jetwing Vil Uyana",
+    category: "Video Production",
+    date: "Dec 16 2025",
+    imageUrl: "",
+    link: "https://youtu.be/N4hO4O51nDk?si=6SiYfHLU54s494fp",
+    isFeatured: true,
+  },
+  {
+    id: 2,
     title: "Chef Factor - Culinary Excellence",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -11,7 +20,7 @@ const projectsData = [
     isFeatured: true,
   },
   {
-    id: 2,
+    id: 3,
     title: "All Ears Elephant Podcast",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -20,7 +29,7 @@ const projectsData = [
     isFeatured: true,
   },
   {
-    id: 3,
+    id: 4,
     title: "All Ears Elephant Podcast - Episode 2",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -29,7 +38,7 @@ const projectsData = [
     isFeatured: true,
   },
   {
-    id: 4,
+    id: 5,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -38,7 +47,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -47,7 +56,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 6,
+    id: 7,
     title: "Jetwing Hotels Sustainability",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -56,7 +65,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 7,
+    id: 8,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -65,7 +74,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 8,
+    id: 9,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -74,7 +83,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 9,
+    id: 10,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -83,7 +92,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 10,
+    id: 11,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -92,7 +101,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 11,
+    id: 12,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -101,7 +110,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 12,
+    id: 13,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -110,7 +119,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 13,
+    id: 14,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -119,7 +128,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 14,
+    id: 15,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -128,7 +137,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 15,
+    id: 16,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -137,7 +146,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 16,
+    id: 17,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -146,7 +155,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 17,
+    id: 18,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -155,7 +164,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 18,
+    id: 19,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -164,7 +173,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 19,
+    id: 20,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -173,7 +182,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 20,
+    id: 21,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -182,7 +191,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 21,
+    id: 22,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -191,7 +200,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 22,
+    id: 23,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -200,7 +209,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 23,
+    id: 24,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -209,7 +218,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 24,
+    id: 25,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -218,7 +227,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 25,
+    id: 26,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -227,7 +236,7 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 26,
+    id: 27,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
@@ -236,12 +245,39 @@ const projectsData = [
     isFeatured: false,
   },
   {
-    id: 27,
+    id: 28,
     title: "Video Project",
     category: "Video Production",
     date: "Dec 16 2025",
     imageUrl: "",
     link: "https://www.youtube.com/watch?v=59oVwJvLzzc",
+    isFeatured: false,
+  },
+  {
+    id: 29,
+    title: "Green Lanka Tea Factory",
+    category: "Video Production",
+    date: "Dec 16 2025",
+    imageUrl: "",
+    link: "https://youtu.be/0cFQUL5_WjU",
+    isFeatured: false,
+  },
+  {
+    id: 30,
+    title: "New Year wish - 2026",
+    category: "Video Production",
+    date: "Dec 16 2025",
+    imageUrl: "",
+    link: "https://youtu.be/Sl3-NwLyUzg",
+    isFeatured: false,
+  },
+  {
+    id: 31,
+    title: "Christmas Wish",
+    category: "Video Production",
+    date: "Dec 16 2025",
+    imageUrl: "",
+    link: "https://youtu.be/Dn97qKn65_I",
     isFeatured: false,
   },
 ];
@@ -250,8 +286,8 @@ const projectsData = [
 const Projects = () => {
   return (
     <div>
-      <section className="w-6xl mx-auto px-4 md:px-8 py-16 mt-20 ">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-8 sm:py-12 md:py-16 mt-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 items-start">
         {projectsData.map(project => (
           <ProjectCard key={project.id} project={project} />
         ))}

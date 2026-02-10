@@ -20,9 +20,14 @@ const ProjectCard = ({ project }) => {
   const imageSource = isYouTubeVideo ? getYouTubeThumbnail(project.link) : (project.imageUrl || 'https://via.placeholder.com/600x400');
 
   return (
-    <div className="group relative">
-      {/* Image Container with "MORE" button */}
-      <div className="relative w-full h-96 overflow-hidden bg-gray-100 shadow-xl">
+    <div className="group relative w-full">
+      {/* Image Container with Play button */}
+      <a 
+        href={project.link} 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="relative block w-full h-56 sm:h-72 md:h-80 lg:h-96 overflow-hidden bg-gray-100 shadow-xl rounded-sm"
+      >
         {/* Placeholder Image (Use object-cover for actual images) */}
         <img 
           src={imageSource} 
@@ -30,25 +35,29 @@ const ProjectCard = ({ project }) => {
           className="w-full h-full object-cover"
         />
         
-        {/* "MORE" Button Overlay */}
-        <a 
-          href={project.link} 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="absolute bottom-6 right-6 p-4 rounded-full bg-black text-white text-sm font-semibold opacity-90 hover:opacity-100 transition duration-300"
-        >
-          VIEW
-        </a>
-      </div>
+        {/* Play Button Overlay in the center */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/90 hover:bg-white flex items-center justify-center transition-all duration-300 transform group-hover:scale-110 shadow-lg">
+            {/* Play Icon */}
+            <svg 
+              className="w-8 h-8 sm:w-10 sm:h-10 text-black ml-1" 
+              fill="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path d="M8 5v14l11-7z"/>
+            </svg>
+          </div>
+        </div>
+      </a>
 
     {/* Text Content */}
-    <div className="mt-6 space-y-1">
-      <div className="flex items-center text-xs font-medium uppercase tracking-widest text-gray-500">
-        <span className="mr-4 text-orange-500">{project.category}</span> 
+    <div className="mt-4 sm:mt-6 space-y-1 px-1">
+      <div className="flex flex-wrap items-center text-xs font-medium uppercase tracking-widest text-gray-500 gap-2 sm:gap-0">
+        <span className="sm:mr-4 text-orange-500">{project.category}</span> 
         <span>{project.date}</span>
       </div>
       
-      <h3 className="text-3xl font-light text-gray-900 leading-tight">
+      <h3 className="text-xl sm:text-2xl md:text-3xl font-light text-gray-900 leading-tight">
         {project.title}
       </h3>
     </div>

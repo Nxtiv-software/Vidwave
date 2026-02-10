@@ -14,8 +14,8 @@ const StudioPage = () => {
       <div className="flex-1 max-w-lg w-full">
         
         {/* Title */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black leading-tight sm:leading-none mb-6 sm:mb-8 md:mb-10 text-gray-900 font-light">
-          Discover <br /> Our Studio
+        <h1 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-medium leading-tight sm:leading-none mb-6 sm:mb-8 md:mb-10 text-gray-900">
+          Discover Our Studio
         </h1>
 
         {/* Text Block 1 */}

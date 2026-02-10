@@ -2,7 +2,7 @@ import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function SideBar({children}) {
   return (
-    <div className="border-r-[0.5px] border-gray-400 w-20 fixed bg-gray-100 h-screen flex flex-col items-center justify-between pb-30">
+    <div className="hidden md:flex border-r-[0.5px] border-gray-400 w-20 fixed bg-gray-100 h-screen flex-col items-center justify-between pb-30">
       <div className="flex items-center justify-center h-32">
         <p className="-rotate-90 whitespace-nowrap text-sm font-semibold tracking-wider text-gray-700">
           {children}
