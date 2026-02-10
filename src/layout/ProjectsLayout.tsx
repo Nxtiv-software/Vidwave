@@ -1,5 +1,6 @@
 import NavBar from "../components/NavBar"
 import SideBar from "../components/SideBar"
+import Footer from "../pages/Footer"
 import Projects from "../pages/Projects"
 
 
@@ -13,7 +14,7 @@ const ProjectsLayout = () => {
         <p>PROJECTS</p>
        </SideBar>
        <Projects/>
-       {/* <Footer/> */}
+       <Footer/>
     </>
   )
 }

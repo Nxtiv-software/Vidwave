@@ -1,5 +1,4 @@
-import React from 'react';
-import { FaBehance, FaTwitter, FaGithub } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram, FaTiktok, FaFacebook, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -32,14 +31,50 @@ const Footer = () => {
           {/* Social + Copyright */}
           <div className="mt-10">
             <div className="flex justify-center md:justify-start space-x-5 mb-4">
-              <a href="#" className="hover:text-[#ff9900] transition">
-                <FaBehance size={20} />
+              <a 
+                href="https://api.whatsapp.com/send/?phone=94717684195&text&type=phone_number&app_absent=0" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                className="hover:text-[#ff9900] transition"
+              >
+                <FaWhatsapp size={20} />
               </a>
-              <a href="#" className="hover:text-[#ff9900] transition">
-                <FaTwitter size={20} />
+              <a 
+                href="https://www.instagram.com/vidwaveproductions/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="hover:text-[#ff9900] transition"
+              >
+                <FaInstagram size={20} />
               </a>
-              <a href="#" className="hover:text-[#ff9900] transition">
-                <FaGithub size={20} />
+              <a 
+                href="https://www.tiktok.com/@vidwaveproductions/video/7134318444614405402?is_from_webapp=1&sender_device=pc&web_id=7175232351218451969" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok"
+                className="hover:text-[#ff9900] transition"
+              >
+                <FaTiktok size={20} />
+              </a>
+              <a 
+                href="https://www.facebook.com/VIDWAVEPRODUCTIONS/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="hover:text-[#ff9900] transition"
+              >
+                <FaFacebook size={20} />
+              </a>
+              <a 
+                href="https://www.youtube.com/channel/UCjJixo3s_ND7XtOX6ohvmjw" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+                className="hover:text-[#ff9900] transition"
+              >
+                <FaYoutube size={20} />
               </a>
             </div>
 
